@@ -9,9 +9,8 @@ void main() {
   tmp2 = number1 - number2;
   tmp3 = number1 * number2;
   tmp4 = number1 / number2;
-  tmp5 = number1 ~/ number2;
-  tmp6 = number1 % number2;
-
+  tmp5 = number1 ~/ number2; // ~/: 나누기를 계산하여 정수로 반환
+  tmp6 = number1 % number2; // 나머지 계산
 
   print('[1] $tmp1 $tmp2 $tmp3 $tmp4 $tmp5 $tmp6');
 
@@ -22,7 +21,7 @@ void main() {
   tmp2 = number1 - number2;
   tmp3 = number1 * number2;
   tmp4 = number1 / number2;
-  tmp5 = number1 ~/ number2;
+  tmp5 = number1 ~/ number2; // ~/: 나누기를 계산하여 정수로 반환
   tmp6 = number1 % number2;
 
   print('[2] $tmp1 $tmp2 $tmp3 $tmp4 $tmp5 $tmp6');
